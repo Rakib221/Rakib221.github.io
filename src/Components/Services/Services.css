@@ -1,0 +1,11 @@
+.icon:hover{
+    color:red;
+    box-shadow: 5px 5px;
+}
+
+.services-spacing-top{
+    padding-top:100px;
+  }
+.services-spacing-bottom{
+    padding-bottom:100px;
+  }

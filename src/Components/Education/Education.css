@@ -1,0 +1,17 @@
+.text-hover:hover{
+    color: blue;
+}
+a{
+    color:black;
+}
+
+.education-spacing-top{
+    padding-top:100px;
+  }
+.education-spacing-bottom{
+    padding-bottom:100px;
+  }
+
+  .displayWrap{
+    flex-wrap: wrap;
+  }

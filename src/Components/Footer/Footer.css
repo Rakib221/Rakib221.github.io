@@ -1,0 +1,14 @@
+.footer{
+    background-color: black;
+}
+.footer-spacing-top{
+    margin-top:100px;
+}
+
+.footer-spacing-bottom{
+    margin-bottom:100px;
+}
+
+a{
+    padding-right: 12px;
+}

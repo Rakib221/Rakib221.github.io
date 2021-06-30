@@ -1,24 +1,46 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Navigation from './Components/Navigation/Navigation';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import Education from './Components/Education/Education';
+import Services from './Components/Services/Services';
+import MyRecentWorks from './Components/MyRecentWorks/MyRecentWorks';
+import MyCertificates from './Components/MyCertificates/MyCertificates';
+import Footer from './Components/Footer/Footer';
+import {useState,useEffect} from 'react';
+import PuffLoader from "react-spinners/PuffLoader";
 function App() {
+  const [loading,setLoading] = useState(false);
+  useEffect(()=>{
+      setLoading(true)
+      setTimeout(()=>{
+        setLoading(false);
+      },2000)
+  },[]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+       <div>
+         {
+           loading?
+           (<div className="pre-loader">
+             <PuffLoader color={'red'} loading={loading} size={150} />
+           </div>
+           )
+           :
+           (
+            <div>
+            <Navigation></Navigation>
+            <Home></Home>
+            <About></About>
+            <Education></Education>
+            <Services></Services>
+            <MyRecentWorks></MyRecentWorks>
+            <MyCertificates></MyCertificates>
+            <Footer></Footer>
+           </div>
+           )
+         }
+        </div>
   );
 }
 

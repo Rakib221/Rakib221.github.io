@@ -1,0 +1,7 @@
+.navigation-container{
+    background-color: black;
+  }
+
+  .nav-item:hover{
+    color: red;
+  }

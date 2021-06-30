@@ -1,0 +1,16 @@
+.display{
+    display:inline-grid;
+    grid-template-columns: auto auto;
+    grid-auto-flow: column;
+    align-items:center;
+    justify-content:center;
+}
+.alignment{
+    text-align:center;
+}
+.MyCertificate-spacing-top{
+    padding-top:100px;
+  }
+.MyCertificate-spacing-bottom{
+    padding-bottom:100px;
+  }

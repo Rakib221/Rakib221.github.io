@@ -1,0 +1,15 @@
+hr{
+    height:2px;
+    width:300px;
+    background:red;
+    float:left;
+}
+img{
+    height:400px;
+}
+.about-spacing-top{
+    padding-top:100px;
+  }
+.about-spacing-bottom{
+    padding-bottom:100px;
+  }
