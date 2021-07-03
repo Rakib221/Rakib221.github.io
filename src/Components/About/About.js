@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import Image from '../Images/myPhoto.jpg'
+import CV from './cv.pdf';
 
 const About = () => {
     return (
@@ -21,7 +22,7 @@ const About = () => {
                     </p>
                     <div className="mx-3">
                         <button className="border-0 bg-danger rounded-pill p-3">
-                            <a className="text-white" href="/cv">DOWNLOAD RESUME</a>
+                            <a className="text-white" target="_blank" href={CV}>VIEW RESUME</a>
                         </button>
                     </div>
                 </div>

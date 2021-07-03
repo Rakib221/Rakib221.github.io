@@ -41,7 +41,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
                                 <br />
                                 <br />
-                                <h3>CSS(Expert)</h3> 
+                                <h3>BOOTSTRAPS(Expert)</h3> 
                             </div>     
                         </div>
                     </div>
@@ -65,7 +65,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
                                 <br />
                                 <br />
-                                <h3>CSS(Expert)</h3> 
+                                <h3>JAVASCRIPT(Intermediate)</h3> 
                             </div>     
                         </div>
                         <div className="col-lg-1">
@@ -76,7 +76,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
                                 <br />
                                 <br />
-                                <h3>CSS(Expert)</h3> 
+                                <h3>REACT(INTERMEDIATE)</h3> 
                             </div>     
                         </div> 
                         <div className="col-lg-1">
@@ -87,7 +87,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
                                 <br />
                                 <br />
-                                <h3>CSS(Expert)</h3> 
+                                <h3>C++(BEGINNER)</h3> 
                             </div>     
                         </div>
                     </div>
