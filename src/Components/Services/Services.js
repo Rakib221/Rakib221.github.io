@@ -19,7 +19,7 @@ const Services = () => {
                                <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
                                <br />
                                <br />
-                               <h3>HTML(Expert)</h3>
+                               <h3>HTML</h3>
                             </div>
                         </div>
                         <div className="col-lg-1">
@@ -30,7 +30,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
                                 <br />
                                 <br />
-                                <h3>CSS(Expert)</h3> 
+                                <h3>CSS</h3> 
                             </div>     
                         </div>
                         <div className="col-lg-1">
@@ -41,7 +41,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
                                 <br />
                                 <br />
-                                <h3>BOOTSTRAPS(Expert)</h3> 
+                                <h3>BOOTSTRAPS</h3> 
                             </div>     
                         </div>
                     </div>
@@ -65,7 +65,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
                                 <br />
                                 <br />
-                                <h3>JAVASCRIPT(Intermediate)</h3> 
+                                <h3>JAVASCRIPT</h3> 
                             </div>     
                         </div>
                         <div className="col-lg-1">
@@ -76,7 +76,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
                                 <br />
                                 <br />
-                                <h3>REACT(INTERMEDIATE)</h3> 
+                                <h3>REACT</h3> 
                             </div>     
                         </div> 
                         <div className="col-lg-1">
@@ -87,7 +87,50 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
                                 <br />
                                 <br />
-                                <h3>C++(BEGINNER)</h3> 
+                                <h3>C++</h3> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-2">
+
+                </div>
+            </div>
+            {/* /////////////////////// */}
+            <div className="row mb-5 mt-5">
+                <div className="col-lg-2">
+                
+                </div>
+                <div className="col-lg-8">
+                    <div className="row">
+                        <div className="col-lg-3 d-flex justify-content-center align-items-center">
+                            <div>
+                               <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
+                               <br />
+                               <br />
+                               <h3>MATERIAL-UI</h3>
+                            </div>
+                        </div>
+                        <div className="col-lg-1">
+
+                        </div>
+                        <div className="col-lg-3 d-flex justify-content-center align-items-center">
+                            <div>
+                                <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
+                                <br />
+                                <br />
+                                <h3>MongoDB</h3> 
+                            </div>     
+                        </div>
+                        <div className="col-lg-1">
+
+                        </div>
+                        <div className="col-lg-3 d-flex justify-content-center align-items-center">
+                            <div>
+                                <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
+                                <br />
+                                <br />
+                                <h3>FIREBASE</h3> 
                             </div>     
                         </div>
                     </div>
